@@ -1,0 +1,346 @@
+@charset "ISO-8859-1";
+
+/*
+Colors:
+
+Darker Brown:#301800
+
+Dark Brown:  #683500
+
+Light Brown: #ad5800
+
+Caramel:     #e07200
+
+White:       #FFFFFF
+
+Black:       #000000
+
+Accent:      #003200
+
+
+
+*/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:#ad5800;
+	font: normal normal normal 1em/2em Chicago, sans-serif;
+}
+
+img.head{
+	width:100%;
+	height:25%;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXX  
+
+        DIVISIONS  
+
+XXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#container{
+	width: 90%;
+	margin: 0 auto;
+	border: solid thick #301800;
+	padding:1% 0 1% 0;
+	border-radius:40px;
+	background-color: #683500;
+}
+
+header{
+	margin-top:2%;
+	border-bottom: solid thick #301800;
+	background-color: #ad5800;
+}
+
+aside{
+	width:30%;
+	float:left;
+	background-color: #683500;
+	border-right: solid thick #301800;
+	border-bottom: solid thick #301800;
+	border-radius: 0 0 40px 0;
+}
+
+#main{
+	width:62%;
+	padding:2%;
+	border-radius:20px;
+	border: solid 1px #000000;
+	float:right;
+	background-color:#ad5800;
+	margin:1%;
+}
+
+footer{
+	border-top: solid thick #301800;
+	width:100%;
+	margin:5% auto;
+	padding:0.5em 0;
+	clear:both;
+	text-align:center;
+	color:#e07200;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXX  
+
+    FONTS AND FORMATTING  
+
+XXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#main p{
+	color:#000000;
+	text-indent:2em;
+	font-size:1.5em;
+	padding:.3em;
+}
+
+#main h1{
+	color:#003200;
+	font-size:2.5em;
+	padding:.3em 0;
+	text-decoration:underline;
+	margin-bottom:.3em;
+}
+
+#main h2{
+	color:#000000;
+	font-size:2em;
+	margin-bottom:.3em;
+	margin-top:.3em;
+}
+
+.emphasis{
+	font-weight:bold;
+	color:#003200;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXX  
+
+        MENU LISTS  
+
+XXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#main ul{
+	list-style:none;
+}
+
+#main ul li{
+	font-weight:bold;
+	color:#000000;
+	font-size:2em;
+	margin-bottom:.3em;
+}
+
+#main ul ul{
+	text-indent:2em;
+	margin-bottom:1em;
+}
+
+#main ul ul li{
+	font-weight:normal;
+	color:#000000;
+	font-size:1.5em;
+	margin-bottom:0;
+}
+
+.slant{
+	font-style: italic;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXX  
+
+      ASIDE NAV BAR  
+
+XXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+aside nav{
+	font-size: 2em;
+	width:95%;
+	margin:0 auto;
+	padding:10px 10px 10px 10px;
+	float:left;
+	text-align:center;
+}
+
+aside nav ul{
+	font-weight: bold;
+	list-style:none;
+}
+
+aside nav ul.intralist{
+	border-bottom:solid thick #301800;
+}
+
+aside nav ul li{
+	display:block;
+	margin: 5px auto;
+}
+
+aside nav ul li a {
+	padding:5px;
+	margin:2px;
+	color:#e07200;
+	text-decoration:none;
+	display:block;
+}
+
+aside nav ul li a:hover{
+	background:#e07200;
+	border-radius:10px;
+	color:#683500;
+}
+
+iframe{
+	width:90%; 
+	height:8em; 
+	border:solid thick #301800;
+	border-radius:1em;
+	margin:.5em auto;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXX  
+
+      FOOTER NAV BAR  
+
+XXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+footer nav{
+	width:90%;
+	margin:0 auto;
+	padding:5px 10px 5px 10px;
+	text-align:center;
+	display:block;
+}
+
+footer nav ul{
+	width:100%;
+	font-weight: bold;
+	list-style:none;
+}
+
+footer nav ul li{
+	display:inline;
+	width:10%;
+}
+
+footer nav ul li a {
+	width:10%;
+	padding:5px;
+	margin:2px;
+	color:#e07200;
+	text-decoration:none;
+}
+
+footer nav ul li a:hover{
+	background:#e07200;
+	border-radius:10px;
+	color:#683500;
+}
+
+.btt{
+	font-size:1.5em;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXX  
+
+      SCHEDULE TABLE 
+
+XXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+table{
+	width:90%;
+	margin:10px auto;
+	border: solid 1px #301800;
+	border-collapse: collapse;
+	background-color:#e07200;
+	text-align:center;
+}
+
+caption{
+	border: solid 1px #301800;
+	padding:4px;
+	color:#000000;
+	background-color:#e07200;
+	font-weight:bold;
+	font-size:1.2em;
+	border-radius: 20px 20px 0 0;
+}
+
+td, th{
+	border-top: solid 1px #301800;
+	border-bottom: solid 1px #301800;
+	padding:7px;
+}
+
+tr.stripe{
+	background-color:#ad5800;
+}
+
+tr:hover{
+	color:#ffffff;
+	background-color:#301800;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXX  
+
+       CONTACT FORM 
+
+XXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+form{
+	margin-bottom:1em;
+	padding:0.5em;
+	font-size:16px;
+}
+
+#forminput{
+	clear:both;
+	width:100%;
+}
+
+label{
+	width:20%;
+	margin: 0 15px 0 4px;
+	color:#000000;
+	float:left;
+	text-align:right;
+}
+
+label.right{
+	width:60%;
+	margin: 0 15px 0 4px;
+	color:#000000;
+	text-align:left;
+	display:block;
+}
+
+legend{
+	padding: 0 10px;
+	color:#000000;
+	font-weight:bold;
+}
+
+fieldset{
+	width:80%;
+	margin:1em;
+	border:solid 5px #301800;
+	padding:0.5em;
+	background-color:#e07200;
+}
+
+input.button{
+	padding:.2em;
+	margin-top:.5em;
+	font-weight:bold;
+	display:inline;
+}
+
+input{
+	display:block;
+}
+
